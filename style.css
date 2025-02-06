@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav input{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.categories{
+    padding: 20px;
+}
+
+.category-list{
+    display: flex;
+    justify-content: center;
+    gap:15px
+}
+
+.category{
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.phone-list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.phone{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.phone img{
+    width: 100%;
+    border-radius: 10px;
+}

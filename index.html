@@ -2,10 +2,50 @@
 <html lang="en">
 <head>
     <title>My Webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome To My Webpage</h1>
-    <p>This is simple webpage where I am learning HTML and CSS.</p>
-    <img src="images/web-dev.jpg" alt="Webdev logo">
+    <!--Navigation bar-->
+    <nav>
+        <h1>Smartphone Store</h1>
+        <input type="text" id="search" placeholder="Search">
+    </nav>
+
+    <!--Categories section-->
+    <section class="categories">
+        <h2>Categories</h2>
+        <div class="category-list">
+            <div class="category">Apple</div>
+            <div class="category">Samsung</div>
+            <div class="category">Xiaomi</div>
+            <div class="category">Huawei</div>
+        </div>
+    </section>
+
+    <section class="smartphones">
+        <h2>Popular Smartphones</h2>
+        <div class="phone-list">
+            <div class="phone">
+                <img src="images/iphone.png" alt="iPhone">
+                <h3>iPhone</h3>
+                <p>999€</p>
+            </div>
+            <div class="phone">
+                <img src="images/samsung.png" alt="Samsung">
+                <h3>Samsung</h3>
+                <p>899€</p>
+            </div>
+            <div class="phone">
+                <img src="images/xiaomi.png" alt="Xiaomi">
+                <h3>Xiaomi</h3>
+                <p>799€</p>
+            </div>
+            <div class="phone">
+                <img src="images/oneplus.png" alt="OnePlus">
+                <h3>OnePlus</h3>
+                <p>899€</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
